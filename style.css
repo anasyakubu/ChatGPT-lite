@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #353740;
+  color: #fff;
+  font-family: monospace;
+}
+
+.hero-text {
+  padding-top: 80px;
+}
+
+.hero-text h1 {
+  font-weight: 600;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.ecl {
+  margin: 90px;
+}
+
+.ecl h6 {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.ecl button {
+  margin: 5px;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  background-color: #44444c;
+  color: #fff;
+  transition: .4s;
+}
+
+.ecl .examples button:hover {
+  background-color: #2f2f32;
+}
+
+.form {
+  margin: 20px;
+}
+
+.form input {
+  /* width: 250px; */
+  width: 50%;
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #44444c;
+  color: #fff;
+}
+
+.form button {
+  padding: 12px;
+  border-radius: 5px;
+  border: none;
+  background-color: #44444c;
+  color: #fff;
+}
+
+@media (max-width: 700px) {
+  .ecl {
+    margin: 0;
+  }
+}
+
+.ans-container {
+  /* margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px; */
+  margin: 0;
+}
+
+.question {
+  background-color: #2f2f32;
+  color: #fff;
+  padding: 35px;
+}
+
+.question h4 {
+  margin: 0;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.answer {
+  padding: 20px;
+  padding-left: 40px;
+  padding-left: 40px;
+}
+
+.ans-title {
+  font-size: 25px;
+  letter-spacing: 2px;
+  font-weight: 600;
+}
+
+.answer h6 {
+  letter-spacing: 1px;
+  font-size: 18px;
+}
