@@ -1,5 +1,6 @@
 // FIRST API KEY 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
 // SECOND API KEY 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
+// THIRD API KEY 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
 
 
 // Example 
@@ -46,7 +47,7 @@ document.getElementById('questionForm').addEventListener('submit', (e) => {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',
-      'Authorization': 'Bearer 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' // Replace YOUR_API_KEY with your actual API key
+      'Authorization': 'Bearer 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' // Replace YOUR_API_KEY with your actual API key
     },
     body: JSON.stringify({
       'model': 'gpt-3.5-turbo',
@@ -75,3 +76,4 @@ document.getElementById('questionForm').addEventListener('submit', (e) => {
   // Clear the input field
   questionInput.value = '';
 });
+
